@@ -27,3 +27,13 @@ export PATH="./bin:${PATH}:/usr/local/sbin"
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'"
+
+
+export PATH="$HOME/google-cloud-sdk/bin:$PATH"
+export PATH="$HOME/.yarn/bin:$PATH"
+export PATH="$HOME/.composer/vendor/bin:$PATH"
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
+
+export NVM_DIR="/Users/tristanb/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm

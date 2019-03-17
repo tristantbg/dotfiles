@@ -1,3 +1,10 @@
 {
-	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme"
+	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"font_size": 12,
+	"ignored_packages":
+	[
+		"Git",
+		"Vintage"
+	],
+	"tab_size": 2
 }
